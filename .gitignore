@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.env
+.env.*
+datos/
+resultados/
+diagnosticos/
+referencias_autorizadas/
+pruebas_captura/
+verificacion_datos_reales/
+Evidencias_Laboratorio4.zip
+*.wav
+*.ogg
+*.webm

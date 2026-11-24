@@ -1,0 +1,120 @@
+{
+  "alcance": "verificación local por texto con tres fichas ficticias",
+  "escenarios_correctos": 20,
+  "escenarios": 20,
+  "incumplimientos": 0,
+  "casos_voz_ejecutados": 0,
+  "modelos_ejecutados": false,
+  "comprobaciones": [
+    "nDCG con ejemplos de referencia",
+    "reversión ante fallo parcial",
+    "confirmación idempotente",
+    "competencia por stock",
+    "presupuesto verbal y decimal, límite de unidades y confirmación contextual",
+    "conservación de cantidad, filtros de preferencia e invalidación de la cotización",
+    "rebaja y aclaración del presupuesto, incremento de unidades y sustituciones multirenglón",
+    "anotaciones de entidades ASR y comparación de métodos con vectores fijos"
+  ],
+  "casos": [
+    {
+      "escenario": "01_compra_voz",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "02_aclaracion_voz",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "03_cambio_voz",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "04_agotado_voz",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "05_correccion_asr",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "06_stock_y_repeticion_voz",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "07_confirmacion_sin_cotizacion",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "08_presupuesto_insuficiente",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "09_presupuesto_exacto",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "10_cantidad_invalida",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "11_cantidad_mayor_que_stock",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "12_presupuesto_cambia",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "13_cancelacion",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "14_retirar_del_carrito",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "15_consultar_color",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "16_opcion_inexistente",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "17_carrito_multilinea",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "18_comparacion",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "19_confirmacion_negada",
+      "correcto": true,
+      "incumplimientos": 0
+    },
+    {
+      "escenario": "20_stock_sin_sustituto",
+      "correcto": true,
+      "incumplimientos": 0
+    }
+  ]
+}

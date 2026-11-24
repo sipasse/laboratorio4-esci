@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.2
+pyarrow>=16
+matplotlib>=3.8
+transformers==4.57.3
+qwen-tts==0.1.1
+faster-whisper==1.2.1
+soundfile>=0.13
